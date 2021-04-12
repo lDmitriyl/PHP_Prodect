@@ -1,0 +1,3256 @@
+Fault: 08-04-2021 18:47:59 - Не верное имя файла для подключения - core/admin/controller/IndexController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 08-04-2021 21:24:30 - Не верное имя файла для подключения - core/user/controller/IndexController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 08-04-2021 21:26:27 - Method core\user\controller\IndexController::request() does not exist
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 50
+
+Fault: 08-04-2021 21:29:34 - Method core\user\controller\IndexController::request() does not exist
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 50
+
+Fault: 08-04-2021 21:31:26 - Method core\user\controller\IndexController::request() does not exist
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 50
+
+Fault: 10-04-2021 22:30:49 - Отсутствует шаблон - templates/default/default
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 10-04-2021 22:30:59 - Отсутствует шаблон - templates/default/default
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 10-04-2021 22:31:01 - Отсутствует шаблон - templates/default/default
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 10-04-2021 22:32:25 - Не верное имя файла для подключения - core/base/model/BaseModelMethods
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 10-04-2021 22:39:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 10-04-2021 22:41:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 10-04-2021 22:44:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 10-04-2021 22:44:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 10-04-2021 22:47:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 15:07:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 17:13:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:05:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:05:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:05:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:06:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:07:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:07:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:09:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:12:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:31 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:31 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:31 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:31 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:13:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:17:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:22 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:18:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:21:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:21:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:21:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:21:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:22:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:22:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:22:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:22:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:23:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:24:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:25:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:25:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:25:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:25:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:26:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:27:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:27:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:27:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:27:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:31:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:31:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:31:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:31:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:07 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:07 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:07 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:07 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:32:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:52:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:53:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:53:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:53:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:53:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:54:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:55:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:55:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:55:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:55:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:57:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:57:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:57:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:57:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:31 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:49 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 18:59:52 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:04 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:00:06 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:02:05 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:03:57 - Не верное имя файла для подключения - core/user/controller/RegisterController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:16:57 - Отсутствует шаблон - register
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 11-04-2021 19:16:59 - Отсутствует шаблон - register
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 11-04-2021 19:18:26 - Отсутствует шаблон - register
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 98
+
+Fault: 11-04-2021 19:19:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:19:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:19:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:19:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:27:35 - Method core\user\controller\UserController::request() does not exist
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 46
+
+Fault: 11-04-2021 19:27:36 - Method core\user\controller\UserController::request() does not exist
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 46
+
+Fault: 11-04-2021 19:27:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:27:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:27:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:27:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:32:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:33:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:33:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:33:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:33:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:36:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:37:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:38:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:38:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:38:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:38:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:10 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:10 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:10 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:10 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:39:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:40:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:39 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:41:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:42:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:43:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:47:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:47:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 11-04-2021 19:47:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:03:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:03:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:03:51 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:04:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:05:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:22 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:22 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:22 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:17:59 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:08 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:53 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:18:54 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:19:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:23:38 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:12 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:24:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:27:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:28:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:29:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:31:33 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:35:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:36:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:41 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:50:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:51:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:52:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:53:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:54:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:55:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:37 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:56:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 0:58:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:00:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:17 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:25 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:46 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:01:58 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:26 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:27 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:02:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:00 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:02 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:21 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:24 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:28 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:29 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:41 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:56 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:03:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:03 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:04 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:05 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:11 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:30 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:04:32 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:08:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:08:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:08:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:42 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:43 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:19:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:23:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:23:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:23:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:06 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:09 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:24:18 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:34 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:25:35 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:36 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:27:55 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:13 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:14 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:16 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:19 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:28:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:40 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:44 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:49 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:52 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:29:57 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:01 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:45 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:47 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:48 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:30:50 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:15 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:20 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
+Fault: 12-04-2021 1:31:23 - Не верное имя файла для подключения - core/user/controller/TemplatesController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 27
+
