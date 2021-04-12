@@ -7,4 +7,4 @@ const PATH = '/';
 const HOST = 'localhost';
 const USER = 'mysql';
 const PASS = '';
-const DB_NAME = 'shop';
+const DB_NAME = '';

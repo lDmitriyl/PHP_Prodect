@@ -37,9 +37,14 @@ class Settings
 
     private $messages = 'core/base/messages/';
 
-    private $defaultTable = 'goods';
+    private $defaultTable = 'user';
 
-    private $fileTemplates = ['img', 'gallery_img'];
+    private $validation = [
+        'name' => ['empty' => true, 'trim' => true, 'countMax' => 15, 'countMin' => 5],
+        'email' => ['empty' => true, 'trim' => true, 'email' => true],
+        'pwd' => ['crypt' => true, 'empty' => true,'countMin' => 5],
+        'pwd2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
+    ];
 
     static public function get($property){
         return self::instance()->$property;

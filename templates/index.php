@@ -28,7 +28,4 @@
     </div>
 </form>
 <div class="row">
-<!--    --><?php //foreach ($prodOfs as $prodOf):?>
-<!--        --><?php //include "layout.card"?>
-<!--    --><?//endforeach;?>
 </div>
