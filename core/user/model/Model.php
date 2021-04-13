@@ -10,13 +10,13 @@ class Model extends BaseModel
     use Singleton;
 
     public function checkEmail($email){
-        $stmt = $this->db->prepare('SELECT `email` FROM `users` WHERE email = :email LIMIT 1');
-        $stmt->bindParam(':email', $email);
-        $stmt->execute();
+        $stmt = $this->db->prepare('SELECT `email` FROM `users` WHERE email = ? LIMIT 1');
+        $stmt->execute([$email]);
         if($stmt->fetchAll()){
             return true;
         }else{
             return false;
         }
     }
+
 }

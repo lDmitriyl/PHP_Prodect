@@ -40,8 +40,8 @@ class Settings
     private $defaultTable = 'user';
 
     private $validation = [
-        'name' => ['empty' => true, 'trim' => true, 'countMax' => 15, 'countMin' => 5],
-        'email' => ['empty' => true, 'trim' => true, 'email' => true],
+        'name' => ['empty' => true, 'trim' => true, 'countMax' => 15, 'countMin' => 5, 'str' => true],
+        'email' => ['empty' => true, 'trim' => true, 'email' => true, 'str' => true],
         'pwd' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'pwd2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
     ];

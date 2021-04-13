@@ -19,6 +19,7 @@
                 <label for="exampleInputPassword1" class="form-label">Повторите пароль</label>
                 <input type="password" name="pwd2" class="form-control" id="exampleInputPassword1">
             </div>
+            <input type="hidden" name="_token" value="<?=$this->_token?>">
             <button type="submit" class="btn btn-primary">Регистрация</button>
         </form>
     </div>

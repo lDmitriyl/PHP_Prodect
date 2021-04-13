@@ -7,15 +7,20 @@ namespace core\user\controller;
 use core\base\controller\BaseController;
 use core\base\settings\Settings;
 use core\user\model\Model;
+use core\user\model\User;
 
 abstract class SiteController extends BaseController
 {
     protected $model;
-
     protected $title;
+    protected $_token;
 
     protected $messages;
     protected $settings;
+
+    public function __construct(){
+        $this->_token = !empty($_SESSION['token']) ? $_SESSION['token'] : $this->createToken();
+    }
 
     protected function inputData(){
 
@@ -24,9 +29,13 @@ abstract class SiteController extends BaseController
         $this->title = 'Site';
 
         if(!$this->model) $this->model = Model::instance();
-        if(!$this->menu) $this->menu = Settings::get('projectTables');
-
         if(!$this->messages) $this->messages = include $_SERVER['DOCUMENT_ROOT'] . PATH . Settings::get('messages') . 'informationMessages.php';
+
+        if(isset($_COOKIE["remember"]) && !empty($_COOKIE["remember"])){
+            $user = User::instance();
+            $data = $user->getUser($_COOKIE["remember"]);
+            if($data) $_SESSION['user'] = $data[0]['name'] ? $data[0]['name'] : $data[0]['email'];
+        }
     }
 
     protected function outputData(){
@@ -78,6 +87,7 @@ abstract class SiteController extends BaseController
                         if($validate[$key]['empty']) $this->emptyFields($item, $answer, $arr);
                         if($validate[$key]['trim']) $arr[$key] = trim($item);
                         if($validate[$key]['int']) $arr[$key] = $this->clearNum($item);
+                        if($validate[$key]['str']) $arr[$key] = $this->clearStr($item);
                         if($validate[$key]['email']) $this->Email($item, $answer, $arr);
                         if($validate[$key]['countMax']) $this->countChar($item, $validate[$key]['countMax'], $answer, 'max', $arr);
                         if($validate[$key]['countMin']) $this->countChar($item, $validate[$key]['countMin'], $answer, 'min', $arr);
@@ -151,5 +161,24 @@ abstract class SiteController extends BaseController
 
         $this->redirect();
 
+    }
+
+    protected function createToken($length = 32){
+        $chars = '1234567890qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP';
+        $max = strlen($chars) - 1;
+        $token = '';
+
+        for($i = 0; $i < $length; ++$i){
+            $token .= $chars[rand(0,$max)];
+        }
+
+        $token = md5($token.session_name());
+        $_SESSION['token'] = $token;
+
+        return $token;
+    }
+
+    protected function tokensMatch($token){
+        return hash_equals($token, $_SESSION['token']);
     }
 }

@@ -16,17 +16,26 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Интернет Магазин</a>
         </div>
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link" href="#">Все товары</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Категории</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">В корзину</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"></a></li>
-            </ul>
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#">Все товары</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Категории</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">В корзину</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"></a></li>
+        </ul>
 
-            <ul class="nav navbar-right">
-                <li class="nav-item"><a class="nav-link" href="">Войти</a></li>
+        <ul class="nav navbar-right">
+            <?php if(!isset($_SESSION['guest'])):?>
+                <li class="nav-item"><a class="nav-link" href="/login">Войти</a></li>
                 <li class="nav-item"><a class="nav-link" href="/register">Регистрация</a></li>
-            </ul>
+            <?php else:?>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><?=$_SESSION['guest']?></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/logout">Выйти</a></li>
+                    </ul>
+                </li>
+            <?php endif?>
+        </ul>
 
     </div>
 </nav>
