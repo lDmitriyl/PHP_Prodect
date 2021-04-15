@@ -15,6 +15,13 @@ abstract class BaseController
     protected $content;
     protected $footer;
 
+    protected $model;
+    protected $table;
+
+    protected $title;
+    protected $_token;
+    protected $messages;
+
     protected $page;
 
     protected $errors;

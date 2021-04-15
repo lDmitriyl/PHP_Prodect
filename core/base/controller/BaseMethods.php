@@ -72,4 +72,23 @@ trait BaseMethods
 
     }
 
+    protected function createToken($length = 32){
+        $chars = '1234567890qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP';
+        $max = strlen($chars) - 1;
+        $token = '';
+
+        for($i = 0; $i < $length; ++$i){
+            $token .= $chars[rand(0,$max)];
+        }
+
+        $token = md5($token.session_name());
+        $_SESSION['token'] = $token;
+
+        return $token;
+    }
+
+    protected function tokensMatch($token){
+        return hash_equals($token, $_SESSION['token']);
+    }
+
 }
