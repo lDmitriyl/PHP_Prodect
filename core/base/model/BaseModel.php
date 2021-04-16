@@ -24,4 +24,14 @@ abstract class BaseModel
 
     }
 
+    public function getFiles($table, $column, $id){
+
+        $stmt = $this->db->prepare("SELECT $column FROM $table WHERE id = ?");
+        $stmt->execute([$id]);
+
+        $result = $stmt->fetchAll();
+
+        return $result;
+    }
+
 }
