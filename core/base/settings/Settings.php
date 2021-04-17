@@ -16,6 +16,11 @@ class Settings
             'path' => 'core/admin/controller/',
             'hrUrl' => false,
             'routes' => [
+                'products' => 'product/index',
+                'product' => 'product/show',
+                'add_product' => 'product/create',
+                'update_product' => 'product/update',
+                'delete_product' => 'product/delete',
             ]
         ],
         'settings' => [
@@ -39,13 +44,12 @@ class Settings
 
     private $messages = 'core/base/messages/';
 
-    private $defaultTable = 'user';
-
     private $validation = [
         'name' => ['empty' => true, 'trim' => true, 'countMax' => 15, 'countMin' => 5, 'str' => true],
         'email' => ['empty' => true, 'trim' => true, 'email' => true, 'str' => true],
         'pwd' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'pwd2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
+        'prodName' => ['empty' => true, 'str' => true],
     ];
 
     static public function get($property){

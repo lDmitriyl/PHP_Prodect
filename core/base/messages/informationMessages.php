@@ -10,5 +10,11 @@
         'registerSuccess' => 'Вы успешно зарегистрировались',
         'loginSuccess' => 'Вы успешно авторизовались',
         'loginFail' => 'Неправильный email или пароль',
+        'createProductSuccess' => 'Продукт создан успешно ',
+        'createProductFail' => 'Произошла ошибка при создании продукта ',
+        'deleteProductSuccess' => 'Продукт успешно удалён',
+        'deleteProductFail' => 'Произошла ошибка при удалении продукта',
+        'updateProductSuccess' => 'Продукт успешно изменён ',
+        'updateProductFail' => 'Произошла ошибка при изменении продукта ',
 
     ];
