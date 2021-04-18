@@ -16,5 +16,17 @@
         'deleteProductFail' => 'Произошла ошибка при удалении продукта',
         'updateProductSuccess' => 'Продукт успешно изменён ',
         'updateProductFail' => 'Произошла ошибка при изменении продукта ',
+        'createPropertySuccess' => 'Свойство успешно создано ',
+        'createPropertyFail' => 'Произошла ошибка при создании свойства ',
+        'updatePropertySuccess' => 'Свойство успешно изменено ',
+        'updatePropertyFail' => 'Произошла ошибка при изменении свойства ',
+        'deletePropertySuccess' => 'Свойство успешно удалёно',
+        'deletePropertyFail' => 'Произошла ошибка при удалении свойства',
+        'createPropertyOptionSuccess' => 'Успешно создано опция ',
+        'createPropertyOptionFail' => 'Произошла ошибка при создании опции ',
+        'updatePropertyOptionSuccess' => 'Успешно изменена опция ',
+        'updatePropertyOptionFail' => 'Произошла ошибка при изменении опции ',
+        'deletePropertyOptionSuccess' => 'Опция успешно удалена ',
+        'deletePropertyOptionFail' => 'Произошла ошибка при удалении опции ',
 
     ];

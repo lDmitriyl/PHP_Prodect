@@ -1,0 +1,30 @@
+<div class="col-md-12">
+    <h1><?=$propertyOption['name']?></h1>
+    <table class="table">
+        <tbody>
+        <tr>
+            <th>
+                Поле
+            </th>
+            <th>
+                Свойство
+            </th>
+            <th>
+                Название
+            </th>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td><?=$propertyOption['id']?></td>
+        </tr>
+        <tr>
+            <td>Свойство</td>
+            <td><?=$propertyOption['property_name']?></td>
+        </tr>
+        <tr>
+            <td>Название</td>
+            <td><?=$propertyOption['name']?></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

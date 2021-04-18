@@ -21,6 +21,18 @@ class Settings
                 'add_product' => 'product/create',
                 'update_product' => 'product/update',
                 'delete_product' => 'product/delete',
+
+                'properties' => 'property/index',
+                'property' => 'property/show',
+                'add_property' => 'property/create',
+                'update_property' => 'property/update',
+                'delete_property' => 'property/delete',
+
+                'property_options' => 'propertyOption/index',
+                'property_option' => 'propertyOption/show',
+                'add_property_option' => 'propertyOption/create',
+                'update_property_option' => 'propertyOption/update',
+                'delete_property_option' => 'propertyOption/delete',
             ]
         ],
         'settings' => [
