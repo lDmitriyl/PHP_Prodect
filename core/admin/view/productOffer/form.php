@@ -48,6 +48,7 @@
             <?php $i++;?>
             <?php endforeach;?>
             <br>
+            <input type="hidden" name="_token" value="<?=$this->_token?>">
             <button class="btn btn-success">Сохранить</button>
         </div>
     </form>

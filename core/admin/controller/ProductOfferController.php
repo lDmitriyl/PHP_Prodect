@@ -68,7 +68,7 @@ class ProductOfferController extends BaseAdmin
         }
 
         return ['productOffer' => $productOffer, 'productProperties' => $productProperties,
-                'propWithOptions' => $propWithOptions, 'productOfferOptions' => $productOfferOptions];
+            'propWithOptions' => $propWithOptions, 'productOfferOptions' => $productOfferOptions];
     }
 
     public function delete(){

@@ -21,6 +21,28 @@ class FileEdit
 
         foreach ($_FILES as $key => $file){
 
+            if(is_array($file['name'])){
+
+                $file_arr = [];
+
+                foreach($file['name'] as $i => $value){
+
+                    if(!empty($file['name'][$i])){
+
+                        $file_arr['name'] = $file['name'][$i];
+                        $file_arr['type'] = $file['type'][$i];
+                        $file_arr['tmp_name'] = $file['tmp_name'][$i];
+                        $file_arr['error'] = $file['error'][$i];
+                        $file_arr['size'] = $file['size'][$i];
+
+                        $res_name = $this->createFile($file_arr);
+
+                        if($res_name) $this->imgArr[$key][$i] = $directory . $res_name;
+                    }
+                }
+
+            }else{
+
                 if($file['name']){
 
                     $res_name = $this->createFile($file);
@@ -28,6 +50,8 @@ class FileEdit
                     if($res_name) $this->imgArr[$key] = $directory . $res_name;
 
                 }
+
+            }
 
         }
 
@@ -64,10 +88,10 @@ class FileEdit
 
     protected function checkFile($fileName, $ext, $fileLastName = ''){
 
-            if(!file_exists($this->directory . $fileName . $fileLastName . '.' . $ext) || !$this->uniqueFile)
-                return $fileName . $fileLastName . '.' . $ext;
+        if(!file_exists($this->directory . $fileName . $fileLastName . '.' . $ext) || !$this->uniqueFile)
+            return $fileName . $fileLastName . '.' . $ext;
 
-            return $this->checkFile($fileName, $ext, '_' . hash('crc32', time(). mt_rand(1, 1000)));
+        return $this->checkFile($fileName, $ext, '_' . hash('crc32', time(). mt_rand(1, 1000)));
 
     }
 

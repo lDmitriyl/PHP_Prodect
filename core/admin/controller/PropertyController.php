@@ -42,7 +42,7 @@ class PropertyController extends BaseAdmin
 
         $this->template = 'core/admin/view/property/form';
 
-        $property = Property::instance()->getProperty($this->parameters['id'][0]);
+        $property = Property::instance()->getProperty($this->parameters['id'])[0];
 
         if($this->isPost()) {
 

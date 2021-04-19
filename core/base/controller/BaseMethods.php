@@ -24,7 +24,16 @@ trait BaseMethods
     }
 
     protected function isPost(){
-        return $_SERVER['REQUEST_METHOD'] == 'POST';
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            if(!empty($_POST['_token'] && $this->tokensMatch($_POST['_token']))){
+
+                return true;
+            }
+
+            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . 'Отсутствует токен' . '</p>';
+            $this->redirect();
+        }
+        return false;
     }
 
     protected function isAjax(){
@@ -39,11 +48,11 @@ trait BaseMethods
         }
 
         if($http) $redirect = $http;
-            else $redirect = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : PATH;
+        else $redirect = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : PATH;
 
-            header('Location:' . $redirect);
+        header('Location:' . $redirect);
 
-            exit();
+        exit();
     }
 
     protected function getStyles(){

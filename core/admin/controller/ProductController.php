@@ -23,7 +23,7 @@ class ProductController extends BaseAdmin
 
         $this->template = 'core/admin/view/product/show';
 
-        $product = Product::instance()->getProduct($this->parameters['id'][0]);
+        $product = Product::instance()->getProduct($this->parameters['id'])[0];
 
         return ['product' => $product];
     }
@@ -51,7 +51,7 @@ class ProductController extends BaseAdmin
         $this->template = 'core/admin/view/product/form';
         $this->table = 'products';
 
-        $product = Product::instance()->getProduct($this->parameters['id'][0]);
+        $product = Product::instance()->getProduct($this->parameters['id'])[0];
         $categories = Category::instance()->getCategories();
         $properties = Property::instance()->getProperty();
         $productProperties = Property::instance()->getProductProperties($this->parameters['id']);

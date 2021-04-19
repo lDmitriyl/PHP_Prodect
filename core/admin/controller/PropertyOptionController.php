@@ -22,7 +22,7 @@ class PropertyOptionController extends BaseAdmin
 
         $this->template = 'core/admin/view/property-options/show';
 
-        $propertyOption = PropertyOption::instance()->getPropertyOption($this->parameters['id'][0]);
+        $propertyOption = PropertyOption::instance()->getPropertyOption($this->parameters['id'])[0];
 
         return ['propertyOption' => $propertyOption];
     }
@@ -43,7 +43,7 @@ class PropertyOptionController extends BaseAdmin
     public function update(){
         $this->template = 'core/admin/view/property-options/form';
 
-        $propertyOption = PropertyOption::instance()->getPropertyOption($this->parameters['id'][0]);
+        $propertyOption = PropertyOption::instance()->getPropertyOption($this->parameters['id'])[0];
 
         if($this->isPost()) {
 
