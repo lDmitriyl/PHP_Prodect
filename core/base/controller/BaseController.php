@@ -35,6 +35,8 @@ abstract class BaseController
     protected $styles;
     protected $scripts;
 
+    protected $ajaxData;
+
     public function route(){
         $controller = str_replace('/', '\\', $this->controller);
 

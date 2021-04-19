@@ -8,7 +8,7 @@ const UPLOAD_DIR = 'files/';
 
 const ADMIN_CSS_JS = [
     'styles' =>['css/bootstrap.min.css', 'css/starter-template.css', 'css/main.css'],
-    'scripts' =>['js/bootstrap.js', 'jquery.min.js']
+    'scripts' =>['js/bootstrap.js', 'js/jquery.min.js','js/script.js', 'js/tinymce/tinymce.min.js', 'js/tinymce/tinymce_init.js']
 ];
 
 const USER_CSS_JS = [
