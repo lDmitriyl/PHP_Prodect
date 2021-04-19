@@ -5,6 +5,7 @@ namespace core\admin\controller;
 use core\base\controller\BaseController;
 use core\admin\model\Model;
 use core\base\settings\Settings;
+use core\user\model\PropertyOption;
 use core\user\model\User;
 use libraries\FileEdit;
 
@@ -97,7 +98,16 @@ abstract class BaseAdmin extends BaseController
 
     }
 
+    public function productOfferName($productOffer){
 
+        $data = [];
 
+        if($productOfferOptions = PropertyOption::instance()->getProductOfferOptions($productOffer['id'])){
 
+            foreach ($productOfferOptions as $options)
+                $data[] = $options['name'];
+        }
+
+        return implode(', ', $data);
+    }
 }

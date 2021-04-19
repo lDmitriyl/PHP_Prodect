@@ -20,10 +20,7 @@ class Product extends BaseModel
 
         $id ? $stmt->execute([$id]) : $stmt->execute();
 
-        $result = $stmt->fetchAll();
-
-        return $result;
-
+        return $stmt->fetchAll();
     }
 
     public function createProduct($data, $messages, $image = NULL){
@@ -32,14 +29,30 @@ class Product extends BaseModel
 
         if($stmt->execute([$data['prodName'], $data['code'], $data['description'], $data['category_id'], $image])){
 
+            if($data['property_id']){
+
+                $id = $this->db->lastInsertId();
+
+                $data = $this->dataTieTable($data['property_id'], $id , ['product_id', 'property_id']);
+
+                if($this->multi_insert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
+
+                    $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createProductSuccess'] . $data['prodName'] . '</p>';
+                    return true;
+
+                }else{
+
+                    $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createProductFail'] . $data['prodName'] . '</p>';
+                    return false;
+                }
+            }
+
             $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createProductSuccess'] . $data['prodName'] . '</p>';
             return true;
-
-        }else{
-
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createProductFail'] . $data['prodName'] . '</p>';
-            return false;
         }
+
+        $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createProductFail'] . $data['prodName'] . '</p>';
+        return false;
     }
 
     public function updateProduct($data, $messages, $image = NULL){
@@ -48,16 +61,32 @@ class Product extends BaseModel
 
         if($stmt->execute([$data['prodName'], $data['code'], $data['description'], $data['category_id'], $image, $data['id']])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updateProductSuccess'] . $data['prodName'] . '</p>';
+            $stmt = $this->db->prepare("DELETE FROM property_product WHERE product_id = ?");
+
+            $stmt->execute([$data['id']]);
+
+            if($data['property_id']){
+
+                $data = $this->dataTieTable($data['property_id'], $data['id'] , ['product_id', 'property_id']);
+
+                if($this->multi_insert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
+
+                    $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updateProductSuccess'] . $data['prodName'] . '</p>';
+                    return true;
+
+                }else{
+
+                    $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updateProductFail'] . $data['prodName'] . '</p>';
+                    return false;
+                }
+            }
+
+            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updateProductSuccess'] . $data['prodName'] . '</p>';
             return true;
-
-        }else{
-
-            $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $messages['updateProductFail'] . $data['prodName'] . '</p>';
-            return false;
-
         }
 
+        $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updateProductFail'] . $data['prodName'] . '</p>';
+        return false;
     }
 
     public function deleteProduct($id, $messages){
@@ -73,6 +102,6 @@ class Product extends BaseModel
             $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['deleteProductFail'] . '</p>';
             return false;
         }
-
     }
+
 }

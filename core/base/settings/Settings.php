@@ -14,7 +14,6 @@ class Settings
         'admin' => [
             'alias' => 'admin',
             'path' => 'core/admin/controller/',
-            'hrUrl' => false,
             'routes' => [
                 'products' => 'product/index',
                 'product' => 'product/show',
@@ -33,6 +32,12 @@ class Settings
                 'add_property_option' => 'propertyOption/create',
                 'update_property_option' => 'propertyOption/update',
                 'delete_property_option' => 'propertyOption/delete',
+
+                'product_offers' => 'productOffer/index',
+                'product_offer' => 'productOffer/show',
+                'add_product_offer' => 'productOffer/create',
+                'update_product_offer' => 'productOffer/update',
+
             ]
         ],
         'settings' => [
@@ -40,7 +45,6 @@ class Settings
         ],
         'user' => [
             'path' => 'core/user/controller/',
-            'hrUrl' => true,
             'routes' => [
                 'register' => 'user/register',
                 'login' => 'user/login',
@@ -57,8 +61,8 @@ class Settings
     private $messages = 'core/base/messages/';
 
     private $validation = [
-        'name' => ['empty' => true, 'trim' => true, 'countMax' => 15, 'countMin' => 5, 'str' => true],
-        'email' => ['empty' => true, 'trim' => true, 'email' => true, 'str' => true],
+        'name' => ['countMax' => 20, 'str' => true],
+        'email' => ['empty' => true, 'email' => true, 'str' => true],
         'pwd' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'pwd2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'prodName' => ['empty' => true, 'str' => true],

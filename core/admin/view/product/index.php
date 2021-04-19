@@ -29,7 +29,7 @@
                 <div class="btn-group" role="group">
                     <form action="/admin/delete_product/id/<?=$product['id']?>" method="POST">
                         <a class="btn btn-success" type="button" href="/admin/product/id/<?=$product['id']?>">Открыть</a>
-                        <a class="btn btn-success" type="button" href="/admin/product_offer/id/<?=$product['id']?>">ProdOffer</a>
+                        <a class="btn btn-success" type="button" href="/admin/product_offers/product_id/<?=$product['id']?>">ProdOffer</a>
                         <a class="btn btn-warning" type="button" href="/admin/update_product/id/<?=$product['id']?>">Редактировать</a>
                         <input class="btn btn-danger" type="submit" value="Удалить">
                     </form>

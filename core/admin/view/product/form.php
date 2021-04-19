@@ -5,7 +5,7 @@
     <h1>Добавить товар</h1>
     <?php endif;?>
 
-    <form method="POST" enctype="multipart/form-data" action="<?= empty($this->parameters) ? '/admin/add_product' : '/admin/update_product';?>">
+    <form id="main-form" method="POST" enctype="multipart/form-data" action="<?= empty($this->parameters) ? '/admin/add_product' : '/admin/update_product';?>">
         <div>
             <?php if(!empty($this->parameters)):?>
                 <input type="hidden" name="id" value="<?=$product['id']?>">
@@ -39,6 +39,25 @@
                              <?php endif;?>
                         ><?=$category['name']?></option>
                         <?php endforeach;?>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="input-group row">
+                <label for="property_id" class="col-sm-2 col-form-label">Свойства товара: </label>
+                <div class="col-sm-6">
+                    <select name="property_id[]" id="property_id" class="form-control" multiple>
+                        <?php foreach($properties as $property):?>
+                        <option value="<?=$property['id']?>"
+                            <?php if(!empty($this->parameters)):?>
+                                <?foreach ($productProperties as $prodProperty):?>
+                                    <?php if($prodProperty['property_id'] === $property['id']):?>
+                                        selected
+                                    <?php endif;?>
+                                <?php endforeach;?>
+                            <?php endif;?>
+                        ><?=$property['name']?></option>
+                        <?php endforeach; ?>
                     </select>
                 </div>
             </div>
