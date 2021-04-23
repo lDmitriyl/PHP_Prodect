@@ -33,14 +33,16 @@ class Property extends Model
         if($data){
 
             foreach ($data as $property){
-                $stmt = $this->db->query( "SELECT id, name, property_id FROM property_options WHERE property_id = {$property['property_id']}");
+                $stmt = $this->db->prepare( "SELECT id, name, property_id FROM property_options WHERE property_id = ?");
+
+                $stmt->execute([$property['property_id']]);
+
                 $arr[$property['name']] = $stmt->fetchAll();
             }
 
         }
 
         return $arr;
-
     }
 
     public function createProperty($data, $messages){
@@ -49,12 +51,12 @@ class Property extends Model
 
         if($stmt->execute([$data['name']])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createPropertySuccess'] . $data['name'] . '</p>';
+            $_SESSION['res']['success'] = $messages['createPropertySuccess'] . $data['name'];
             return true;
 
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createPropertyFail'] . $data['name'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['createPropertyFail'] . $data['name'];
             return false;
         }
     }
@@ -65,12 +67,12 @@ class Property extends Model
 
         if($stmt->execute([$data['name'], $data['id']])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updatePropertySuccess'] . $data['name'] . '</p>';
+            $_SESSION['res']['success'] = $messages['updatePropertySuccess'] . $data['name'];
             return true;
 
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updatePropertyFail'] . $data['name'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['updatePropertyFail'] . $data['name'];
             return false;
         }
     }
@@ -81,11 +83,11 @@ class Property extends Model
 
         if($stmt->execute([$id])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['deletePropertySuccess'] . '</p>';
+            $_SESSION['res']['success'] = $messages['deletePropertySuccess'];
             return true;
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['deletePropertyFail'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['deletePropertyFail'];
             return false;
         }
     }

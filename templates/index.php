@@ -28,4 +28,32 @@
     </div>
 </form>
 <div class="row">
+    <?php foreach ($productOffers as $productOffer):?>
+        <?php include 'layout/card.php'?>
+    <?php endforeach;?>
+    <br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <?php if($this->parameters['page'] != 1):?>
+                <li class="page-item">
+                    <a class="page-link" href="/index/page/<?=$this->parameters['page'] - 1?>" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            <?php endif;?>
+            <?php for($i = 1; $i <= $pageCount; $i++):
+                if($this->parameters['page'] == $i) : ?>
+                    <li class="page-item active"><a class="page-link" href="/index/page/<?=$i?>"><?=$i?></a></li>
+                <?php else:?>
+                    <li class="page-item"><a class="page-link" href="/index/page/<?=$i?>"><?=$i?></a></li>
+                <?php endif;endfor;?>
+            <?php if($this->parameters['page'] != $pageCount):?>
+                <li class="page-item">
+                    <a class="page-link" href="/index/page/<?=$this->parameters['page'] + 1?>" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            <?php endif;?>
+        </ul>
+    </nav>
 </div>

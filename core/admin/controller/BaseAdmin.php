@@ -30,7 +30,7 @@ abstract class BaseAdmin extends BaseController
             $user = User::instance();
             $data = $user->getUser($_COOKIE["remember"]);
 
-            if($data) $_SESSION['user'] = $data[0]['name'] ? $data[0]['name'] : $data[0]['email'];
+            if($data) $_SESSION['guest'] = $data[0];
         }
     }
 

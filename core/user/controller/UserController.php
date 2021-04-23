@@ -16,6 +16,7 @@ class UserController extends SiteController
         if($this->isPost()){
 
             $this->clearPostFields();
+
             User::instance()->registerNewUser($_POST, $this->messages) ? $this->redirect(PATH) : $this->redirect();
         }
     }
@@ -27,6 +28,7 @@ class UserController extends SiteController
         if($this->isPost()){
 
             $this->clearPostFields();
+
             User::instance()->checkLogin($_POST, $this->messages) ? $this->redirect(PATH) : $this->redirect();
         }
     }

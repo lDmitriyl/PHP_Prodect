@@ -39,12 +39,12 @@ class PropertyOption extends Model
 
         if($stmt->execute([$data['name'], $data['property_id']])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createPropertyOptionSuccess'] . $data['name'] . '</p>';
+            $_SESSION['res']['success'] = $messages['createPropertyOptionSuccess'];
             return true;
 
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createPropertyOptionFail'] . $data['name'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['createPropertyOptionFail'] . $data['name'];
             return false;
         }
     }
@@ -55,12 +55,12 @@ class PropertyOption extends Model
 
         if($stmt->execute([$data['name'], $data['id']])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updatePropertyOptionSuccess'] . $data['name'] . '</p>';
+            $_SESSION['res']['success'] = $messages['updatePropertyOptionSuccess'] . $data['name'];
             return true;
 
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updatePropertyOptionFail'] . $data['name'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['updatePropertyOptionFail'] . $data['name'];
             return false;
         }
     }
@@ -71,11 +71,11 @@ class PropertyOption extends Model
 
         if($stmt->execute([$id])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['deletePropertyOptionSuccess'] . '</p>';
+            $_SESSION['res']['success'] = $messages['deletePropertyOptionSuccess'];
             return true;
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['deletePropertyOptionFail'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['deletePropertyOptionFail'];
             return false;
         }
     }

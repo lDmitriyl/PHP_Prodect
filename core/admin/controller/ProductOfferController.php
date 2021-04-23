@@ -17,9 +17,8 @@ class ProductOfferController extends BaseAdmin
         $this->template = 'core/admin/view/productOffer/index';
 
         $productOffers = ProductOffer::instance()->getProductOffers($this->parameters['product_id']);
-        $product = Product::instance()->getProduct($this->parameters['product_id'])[0];
 
-        return ['productOffers' => $productOffers, 'product' => $product];
+        return ['productOffers' => $productOffers];
     }
 
     public function show(){
@@ -43,19 +42,21 @@ class ProductOfferController extends BaseAdmin
             $this->clearPostFields();
 
             ProductOffer::instance()->createProductOffer($_POST, $this->messages) ?
-                $this->redirect(PATH . 'admin/product_offers') : $this->redirect();
+                $this->redirect(PATH . 'admin/product_offers/product_id/' . $_POST['product_id']) : $this->redirect();
         }
 
         return ['propWithOptions' => $propWithOptions];
     }
 
     public function update(){
+
         $this->template = 'core/admin/view/productOffer/form';
         $this->table = 'products';
 
         $productOffer = ProductOffer::instance()->getProductOffer($this->parameters['id'])[0];
-        $productProperties = Property::instance()->getProductProperties($this->parameters['product_id']);
         $productOfferOptions = PropertyOption::instance()->getProductOfferOptions($productOffer['id']);
+
+        $productProperties = Property::instance()->getProductProperties($this->parameters['product_id']);
         $propWithOptions = Property::instance()->getPropertyWithOptions($productProperties);
 
         if($this->isPost()) {

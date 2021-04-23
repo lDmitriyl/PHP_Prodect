@@ -5,16 +5,28 @@ namespace core\user\model;
 
 
 use core\base\controller\Singleton;
-
+use PDO;
 class productOffer extends Model
 {
     use Singleton;
 
-    public function getProductOffers($id){
+    public function getProductOffers($product_id = NULL, $arrLimit = []){
 
-        $stmt = $this->db->prepare("SELECT `id`, `count`, `price`, `product_id` FROM product_offers WHERE product_id = ?");
+        $product_id ? $where = " WHERE po.product_id = :id " : $where = "";
+        !empty($arrLimit) ? $limit = "LIMIT :lim1 , :lim2 " : $limit = '';
 
-        $stmt->execute([$id]);
+        $stmt = $this->db->prepare("SELECT po.id, po.count, po.price, p.name as product_name FROM product_offers as po
+                                    JOIN products as p 
+                                    ON po.product_id = p.id $where$limit");
+
+        if($product_id) $stmt->bindValue(":id", $product_id, PDO::PARAM_INT);
+
+        if(!empty($arrLimit)) {
+            $stmt->bindValue(":lim1", $arrLimit[0], PDO::PARAM_INT);
+            $stmt->bindValue(":lim2", $arrLimit[1], PDO::PARAM_INT);
+        }
+
+        $stmt->execute();
 
         return $stmt->fetchAll();
     }
@@ -44,21 +56,21 @@ class productOffer extends Model
 
                 if($this->multi_insert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
 
-                    $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createProductOfferSuccess'] . '</p>';
+                    $_SESSION['res']['success'] = $messages['createProductOfferSuccess'];
                     return true;
 
                 }else{
 
-                    $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createProductOfferFail'] . '</p>';
+                    $_SESSION['res']['warning'] = $messages['createProductOfferFail'];
                     return false;
                 }
             }
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['createProductOfferSuccess'] . '</p>';
+            $_SESSION['res']['success'] = $messages['createProductOfferSuccess'];
             return true;
         }
 
-        $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['createProductOfferFail'] . '</p>';
+        $_SESSION['res']['warning'] = $messages['createProductOfferFail'];
         return false;
     }
 
@@ -78,21 +90,21 @@ class productOffer extends Model
 
                 if($this->multi_insert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
 
-                    $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updateProductOfferSuccess'] . '</p>';
+                    $_SESSION['res']['success'] = $messages['updateProductOfferSuccess'];
                     return true;
 
                 }else{
 
-                    $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updateProductOfferFail'] . '</p>';
+                    $_SESSION['res']['warning'] = $messages['updateProductOfferFail'];
                     return false;
                 }
             }
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['updateProductOfferSuccess'] . '</p>';
+            $_SESSION['res']['success'] = $messages['updateProductOfferSuccess'];
             return true;
         }
 
-        $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['updateProductOfferFail'] . '</p>';
+        $_SESSION['res']['warning'] = $messages['updateProductOfferFail'];
         return false;
     }
 
@@ -102,13 +114,30 @@ class productOffer extends Model
 
         if($stmt->execute([$id])){
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . $messages['deleteProductOfferSuccess'] . '</p>';
+            $_SESSION['res']['success'] = $messages['deleteProductOfferSuccess'];
             return true;
         }else{
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-danger">' . $messages['deleteProductOfferFail'] . '</p>';
+            $_SESSION['res']['warning'] = $messages['deleteProductOfferFail'];
             return false;
         }
+    }
+
+    public function updatePOCount($data){
+
+        foreach ($data as $product){
+
+            $count = $product['count'] - $product['countInOrder'];
+
+            $stmt = $this->db->prepare('UPDATE product_offers SET count = ? WHERE id = ?');
+
+            if(!$stmt->execute([$count, $product['id']]))
+
+                return false;
+
+        }
+
+        return true;
     }
 
 

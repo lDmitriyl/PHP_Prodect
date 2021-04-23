@@ -53,6 +53,7 @@ class ProductController extends BaseAdmin
 
         $product = Product::instance()->getProduct($this->parameters['id'])[0];
         $categories = Category::instance()->getCategories();
+
         $properties = Property::instance()->getProperty();
         $productProperties = Property::instance()->getProductProperties($this->parameters['id']);
 

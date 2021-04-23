@@ -24,13 +24,15 @@ trait BaseMethods
     }
 
     protected function isPost(){
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            if(!empty($_POST['_token'] && $this->tokensMatch($_POST['_token']))){
 
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+            if(!empty($_POST['_token'] && $this->tokensMatch($_POST['_token']))){
                 return true;
             }
 
-            $_SESSION['res']['answer'] = '<p class="alert alert-success">' . 'Отсутствует токен' . '</p>';
+            $_SESSION['res']['warning'] = 'Отсутствует токен';
+
             $this->redirect();
         }
         return false;

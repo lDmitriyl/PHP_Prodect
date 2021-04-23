@@ -14,13 +14,13 @@
 <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Интернет Магазин</a>
+            <a class="navbar-brand" href="/">Интернет Магазин</a>
         </div>
         <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#">Все товары</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Категории</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">В корзину</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"></a></li>
+            <li class="nav-item"><a class="nav-link" href="/">Все товары</a></li>
+            <li class="nav-item"><a class="nav-link" href="/category">Категории</a></li>
+            <li class="nav-item"><a class="nav-link" href="/basket">В корзину</a></li>
+            <li class="nav-item"><a class="nav-link" href="/admin">Админка</a></li>
         </ul>
 
         <ul class="nav navbar-right">
@@ -29,7 +29,7 @@
                 <li class="nav-item"><a class="nav-link" href="/register">Регистрация</a></li>
             <?php else:?>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><?=$_SESSION['guest']?></a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><?=$_SESSION['guest']['name'] ? : $_SESSION['guest']['email']?></a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/logout">Выйти</a></li>
                     </ul>
@@ -41,10 +41,12 @@
 </nav>
 <div class="container">
     <div class="starter-template">
-        <?php
-        if(isset($_SESSION['res']['answer'])){
-            echo $_SESSION['res']['answer'];
-            unset($_SESSION['res']);
-        }
-        ?>
+        <?php if(isset($_SESSION['res']['success'])):?>
+            <p class="alert alert-success"><?=$_SESSION['res']['success']?></p>
+            <?php unset($_SESSION['res']);?>
+        <?endif;?>
+        <?php if(isset($_SESSION['res']['warning'])):?>
+            <p class="alert alert-warning"><?=$_SESSION['res']['warning']?></p>
+            <?php unset($_SESSION['res']);?>
+        <?endif;?>
 

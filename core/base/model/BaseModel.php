@@ -48,20 +48,43 @@ abstract class BaseModel
             $i++;
         }
 
-        $stm_text = 'insert into '.$table.' ('.implode(',',$fields).') values '.implode(',',$stmt_data);
+        $stm_text = 'INSERT INTO '.$table.' ('.implode(',',$fields).') VALUES '.implode(',',$stmt_data);
         $stmt = $db->prepare($stm_text);
 
         return $stmt->execute($param);
     }
 
-    public function dataTieTable($array, $id, $fieldName){
-        $data = [];
-        foreach ($array as $arr){
-            $data[] = [$fieldName[0] => $id, $fieldName[1] => $arr];
+    public function dataTieTable($data, $id, $fieldName){
+        $array = [];
+
+        foreach ($data as $item){
+            $array[] = [$fieldName[0] => $id, $fieldName[1] => $item];
         }
 
-        return $data;
+        return $array;
 
+    }
+
+    public function dataTieTableWithExtraColumn($data, $id, $fieldsName){
+        $array = [];
+        $i = 0;
+
+        foreach ($data as $item){
+
+            foreach ($fieldsName as $key => $fieldName){
+
+                if($key == 0){
+                    $array[$i][$fieldName] = $id;
+                    continue;
+                }
+                if(strpos($fieldName, 'id')) $array[$i][$fieldName] = $item['id'];
+
+                if(array_key_exists($fieldName, $item)) $array[$i][$fieldName] = $item[$fieldName];
+            }
+
+            $i ++;
+        }
+        return  $array;
     }
 
     public function getFiles($table, $column, $id){
@@ -72,6 +95,14 @@ abstract class BaseModel
         $result = $stmt->fetchAll();
 
         return $result;
+    }
+
+    public function getCountEntity($table){
+
+        $stmt = $this->db->query("SELECT COUNT(*) as count FROM $table");
+
+        return $stmt->fetchAll()[0];
+
     }
 
 }

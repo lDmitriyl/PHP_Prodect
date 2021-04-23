@@ -46,14 +46,14 @@ trait ValidationMethods
             }
         }
 
-        if(isset($arr['pwd2'])) $this->checkPassword($arr);
+        if(isset($arr['password2'])) $this->checkPassword($arr);
         return true;
     }
 
     protected function emptyFields($str, $answer, $arr = []){
 
         if(empty($str)){
-            $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $this->messages['empty'] . ' ' . $answer . '</p>';
+            $_SESSION['res']['warning'] = $this->messages['empty'] . ' ' . $answer;
             $this->addSessionData($arr);
         }
 
@@ -66,7 +66,7 @@ trait ValidationMethods
                 $str_res = mb_str_replace('$1', $answer, $this->messages['countMax']);
                 $str_res = mb_str_replace('$2', $counter, $str_res);
 
-                $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $str_res . '</p>';
+                $_SESSION['res']['warning'] = $str_res;
                 $this->addSessionData($arr);
             }
 
@@ -76,7 +76,7 @@ trait ValidationMethods
                 $str_res = mb_str_replace('$1', $answer, $this->messages['countMin']);
                 $str_res = mb_str_replace('$2', $counter, $str_res);
 
-                $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $str_res . '</p>';
+                $_SESSION['res']['warning'] = $str_res;
                 $this->addSessionData($arr);
             }
         }
@@ -86,15 +86,15 @@ trait ValidationMethods
     protected function Email($email, $answer, $arr = []){
 
         if($this->model->checkEmail($email)){
-            $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $this->messages['email'] . '</p>';
+            $_SESSION['res']['warning'] = $this->messages['email'];
             $this->addSessionData($arr);
         }
 
     }
 
     protected function checkPassword($arr){
-        if($arr['pwd'] !== $arr['pwd2']){
-            $_SESSION['res']['answer'] = '<p class="alert alert-warning">' . $this->messages['pwd'] . '</p>';
+        if($arr['password'] !== $arr['password2']){
+            $_SESSION['res']['warning'] = $this->messages['password'];
             $this->addSessionData($arr);
         }
     }

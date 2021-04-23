@@ -5,6 +5,8 @@ const TEMPLATE = 'templates/';
 const ADMIN_TEMPLATE = 'core/admin/view/';
 const UPLOAD_DIR = 'files/';
 
+const PAGINATION = 3;
+
 
 const ADMIN_CSS_JS = [
     'styles' =>['css/bootstrap.min.css', 'css/starter-template.css', 'css/main.css'],

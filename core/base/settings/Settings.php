@@ -49,6 +49,12 @@ class Settings
                 'register' => 'user/register',
                 'login' => 'user/login',
                 'logout' => 'user/logout',
+
+                'basket' => 'basket/index',
+                'add_basket' => 'basket/addBasket',
+                'remove_basket' => 'basket/removeBasket',
+                'basket_place' => 'basket/basketPlace',
+                'basket_confirm' => 'basket/basketConfirm',
             ]
         ],
         'default' => [
@@ -63,9 +69,11 @@ class Settings
     private $validation = [
         'name' => ['countMax' => 20, 'str' => true],
         'email' => ['empty' => true, 'email' => true, 'str' => true],
-        'pwd' => ['crypt' => true, 'empty' => true,'countMin' => 5],
-        'pwd2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
+        'mail' => ['empty' => true, 'str' => true],
+        'password' => ['crypt' => true, 'empty' => true,'countMin' => 5],
+        'password2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'prodName' => ['empty' => true, 'str' => true],
+        'phone' => ['empty' => true]
     ];
 
     static public function get($property){
