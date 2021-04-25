@@ -4,6 +4,8 @@
 namespace core\base\controller;
 
 
+use core\user\classes\CurrencyConversion;
+
 trait BaseMethods
 {
 
@@ -100,6 +102,10 @@ trait BaseMethods
 
     protected function tokensMatch($token){
         return hash_equals($token, $_SESSION['token']);
+    }
+
+    protected function convertCurrency($price){
+        return CurrencyConversion::convert($price);
     }
 
 }

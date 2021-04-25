@@ -6,6 +6,7 @@ const ADMIN_TEMPLATE = 'core/admin/view/';
 const UPLOAD_DIR = 'files/';
 
 const PAGINATION = 3;
+const DEFAULT_CURRENCY_CODE = 'EUR';
 
 
 const ADMIN_CSS_JS = [

@@ -55,6 +55,8 @@ class Settings
                 'remove_basket' => 'basket/removeBasket',
                 'basket_place' => 'basket/basketPlace',
                 'basket_confirm' => 'basket/basketConfirm',
+
+                'currency' => 'index/changeCurrency',
             ]
         ],
         'default' => [

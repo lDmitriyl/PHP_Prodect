@@ -64,6 +64,8 @@ class BasketController extends SiteController
 
                 unset($_SESSION['order']);
 
+                $basket->sendMail($order, $_POST);
+
                 $this->redirect(PATH);
             }
 

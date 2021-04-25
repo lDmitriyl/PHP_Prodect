@@ -29,7 +29,7 @@ class Order extends Model
 
             $data = $this->dataTieTableWithExtraColumn($order, $orderId , ['order_id', 'product_offer_id', 'countInOrder']);
 
-            if($this->multi_insert($this->db, 'order_product_offer', ['order_id', 'product_offer_id', 'countInOrder'], $data)){
+            if($this->multiInsert($this->db, 'order_product_offer', ['order_id', 'product_offer_id', 'countInOrder'], $data)){
 
                 return true;
 

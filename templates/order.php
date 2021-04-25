@@ -1,7 +1,7 @@
 <h1>Подтвердите заказ:</h1>
 <div class="container">
     <div class="row justify-content-center">
-        <p>Общая стоимость: <b><?=$orderFullSum?></b></p>
+        <p>Общая стоимость: <b><?=$orderFullSum?> <?=$_SESSION['currencyCode']?></b></p>
         <form action="/basket_confirm" method="POST">
             <div>
                 <p>Укажите свои имя и номер телефона, чтобы наш менеджер мог с вами связаться:</p>
@@ -24,12 +24,12 @@
                     <br>
                     <br>
                     <?php if(!isset($_SESSION['guest'])):?>
-                    <div class="form-group">
-                        <label for="name" class="control-label col-lg-offset-3 col-lg-2">Email: </label>
-                        <div class="col-lg-4">
-                            <input type="text" name="mail" id="email" value="" class="form-control">
+                        <div class="form-group">
+                            <label for="name" class="control-label col-lg-offset-3 col-lg-2">Email: </label>
+                            <div class="col-lg-4">
+                                <input type="text" name="mail" id="email" value="" class="form-control">
+                            </div>
                         </div>
-                    </div>
                     <?php else:?>
                         <input type="hidden" name="mail" value="<?=$_SESSION['guest']['email']?>">
                         <input type="hidden" name="user_id" value="<?=$_SESSION['guest']['id']?>">

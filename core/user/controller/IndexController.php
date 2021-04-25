@@ -5,6 +5,8 @@ namespace core\user\controller;
 
 
 
+use core\user\classes\CurrencyConversion;
+use core\user\model\Currency;
 use core\user\model\productOffer;
 
 class IndexController extends SiteController
@@ -21,4 +23,12 @@ class IndexController extends SiteController
         return ['productOffers' => $productOffers, 'pageCount' => $pageCount];
 
     }
+
+    public function changeCurrency(){
+
+        $_SESSION['currencyCode'] = $this->parameters['code'];
+
+        $this->redirect();
+    }
+
 }

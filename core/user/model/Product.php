@@ -35,7 +35,7 @@ class Product extends BaseModel
 
                 $data = $this->dataTieTable($data['property_id'], $product_id , ['product_id', 'property_id']);
 
-                if($this->multi_insert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
+                if($this->multiInsert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
 
                     $_SESSION['res']['success'] = $messages['createProductSuccess'] . $data['prodName'];
                     return true;
@@ -69,7 +69,7 @@ class Product extends BaseModel
 
                 $data = $this->dataTieTable($data['property_id'], $data['id'] , ['product_id', 'property_id']);
 
-                if($this->multi_insert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
+                if($this->multiInsert($this->db, 'property_product', ['product_id', 'property_id'], $data)){
 
                     $_SESSION['res']['success'] = $messages['updateProductSuccess'] . $data['prodName'];
                     return true;

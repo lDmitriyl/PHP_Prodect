@@ -85,7 +85,7 @@ class Basket
 
             if(ProductOffer::instance()->updatePOCount($order))
 
-            return true;
+                return true;
         }
 
         return false;
@@ -97,7 +97,7 @@ class Basket
         $sum = 0;
 
         foreach ($products as $product){
-            $sum += $product['price'] * $product['countInOrder'];
+            $sum += CurrencyConversion::convert($product['price']) * $product['countInOrder'];
         }
 
         return $sum;
@@ -110,6 +110,20 @@ class Basket
         }
 
         return false;
+    }
+
+    public function sendMail($order, $data){
+
+        $message = "Ваш заказ №{$order['id']} принт на обработку";
+
+        $from = "test@yandex.ru";
+
+        $subject = "Заказ №{$order['id']} магазина TEST";
+        $subject = "=?utf-8?B?" . base64_encode($subject) . "?=";
+
+        $headers = "From: $from\r\nReply-to: $from\r\nContent-type:text\html; charset=utf-8\r\n";
+
+        mail($data['mail'], $subject, $message, $headers);
     }
 
 }

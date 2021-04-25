@@ -6,6 +6,7 @@ namespace core\user\controller;
 
 use core\base\controller\BaseController;
 use core\base\settings\Settings;
+use core\user\classes\CurrencyConversion;
 use core\user\model\Model;
 use core\user\model\User;
 
@@ -16,6 +17,8 @@ abstract class SiteController extends BaseController
     public function __construct(){
 
         $this->init();
+
+        $this->currency();
 
         if(!$this->title) $this->title = 'Site';
 
@@ -47,6 +50,18 @@ abstract class SiteController extends BaseController
         $this->footer = $this->render(TEMPLATE . 'layout/footer');
 
         return $this->render(TEMPLATE . 'layout/master');
+
+    }
+
+    protected function currency(){
+
+        $currencies = CurrencyConversion::getCurrencies();
+
+        foreach ($currencies as $currency) {
+
+            $_SESSION['currencies'][$currency['code']] = $currency['symbol'];
+
+        }
 
     }
 }

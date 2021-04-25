@@ -54,7 +54,7 @@ class productOffer extends Model
 
                 $data = $this->dataTieTable($data['property_id'], $id , ['product_offer_id', 'property_option_id']);
 
-                if($this->multi_insert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
+                if($this->multiInsert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
 
                     $_SESSION['res']['success'] = $messages['createProductOfferSuccess'];
                     return true;
@@ -88,7 +88,7 @@ class productOffer extends Model
 
                 $data = $this->dataTieTable($data['property_id'], $data['product_offer_id'] , ['product_offer_id', 'property_option_id']);
 
-                if($this->multi_insert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
+                if($this->multiInsert($this->db, 'product_offer_property_option', ['product_offer_id', 'property_option_id'], $data)){
 
                     $_SESSION['res']['success'] = $messages['updateProductOfferSuccess'];
                     return true;

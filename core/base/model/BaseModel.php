@@ -30,7 +30,7 @@ abstract class BaseModel
         }
     }
 
-    function multi_insert($db, $table, $fields, $data){
+    function multiInsert($db, $table, $fields, $data){
         $i = 0;
 
         foreach($data as $d){
