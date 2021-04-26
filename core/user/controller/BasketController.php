@@ -5,6 +5,7 @@ namespace core\user\controller;
 
 
 use core\user\classes\Basket;
+use core\user\classes\CurrencyConversion;
 use core\user\model\productOffer;
 
 class BasketController extends SiteController
@@ -36,7 +37,9 @@ class BasketController extends SiteController
 
         $orderFullSum = (new Basket())->getFullSum($order);
 
-        return ['order' => $order, 'orderFullSum' => $orderFullSum];
+        $currency = CurrencyConversion::getCurrentCurrencyFromSession();
+
+        return ['order' => $order, 'orderFullSum' => $orderFullSum, 'currency' => $currency];
     }
 
     public function basketConfirm(){

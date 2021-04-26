@@ -10,7 +10,7 @@ class Order extends Model
 {
     use Singleton;
 
-    public function getOrder($products){
+    public function getBasketProducts($products){
 
         $stmt = $this->db->query("SELECT po.id, po.count, po.price, p.name as product_name, p.image FROM product_offers as po
                                     JOIN products as p
@@ -21,9 +21,9 @@ class Order extends Model
 
     public function saveOrder($sum, $data, $order){
 
-        $stmt = $this->db->prepare("INSERT INTO orders (`name`, `phone`, `user_id`, `sum`) VALUES (?,?,?,?)");
+        $stmt = $this->db->prepare("INSERT INTO orders (`name`, `phone`, `user_id`, `currency_id`, `sum`, `created_at`) VALUES (?,?,?,?,?,?)");
 
-        if($stmt->execute([$data['name'], $data['phone'], $data['user_id'], $sum])){
+        if($stmt->execute([$data['name'], $data['phone'], $data['user_id'], $data['currency_id'], $sum, date( "Y-m-d H:i:s" )])){
 
             $orderId = $this->db->lastInsertId();
 
@@ -42,6 +42,21 @@ class Order extends Model
             return false;
         }
 
+    }
+
+    public function getOrders($order_id = NULL){
+
+        $order_id ? $where = " WHERE o.id = ?" : $where = "";
+
+        $stmt = $this->db->prepare("SELECT o.id, o.status, o.phone, o.name, o.sum, o.created_at, c.code as currency_code FROM orders as o
+                                  JOIN currencies as c 
+                                  ON o.currency_id = c.id $where");
+
+        $order_id ? $stmt->execute([$order_id]) : $stmt->execute();
+
+        if($order_id) return $stmt->fetchAll()[0];
+
+        return $stmt->fetchAll();
     }
 
 }

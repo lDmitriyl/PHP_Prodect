@@ -36,6 +36,7 @@
                     <?php endif;?>
                 </div>
                 <br>
+                <input type="hidden" name="currency_id" value="<?=$currency['id']?>">
                 <input type="hidden" name="_token" value="<?=$this->_token?>">
                 <input type="submit" class="btn btn-success" value="Подтвердите заказ">
             </div>

@@ -3,7 +3,7 @@
 ?>
 <div class="col-sm-6 col-md-4">
     <div class="card">
-        <img src="" class="card-img-top" alt="">
+        <img height="56px" src="<?=UPLOAD_DIR. $productOffer['image']?>" class="card-img-top" alt="">
         <div class="card-body">
             <h3><?=$productOffer['product_name']?></h3>
             <p></p>

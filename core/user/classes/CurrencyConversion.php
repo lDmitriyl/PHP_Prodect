@@ -31,7 +31,7 @@ class CurrencyConversion
         return self::$container;
     }
 
-    public static function getCurrencyFromSession(){
+    public static function getCurrencyCodeFromSession(){
         return $_SESSION['currencyCode'] ?: $_SESSION['currencyCode'] = DEFAULT_CURRENCY_CODE;
     }
 
@@ -39,7 +39,7 @@ class CurrencyConversion
 
         self::loadContainer();
 
-        $currencyCode = self::getCurrencyFromSession();
+        $currencyCode = self::getCurrencyCodeFromSession();
 
         foreach (self::$container as $currency) {
 
@@ -68,7 +68,7 @@ class CurrencyConversion
         }
 
         if(is_null($targetCurrencyCode)){
-            $targetCurrencyCode = self::getCurrencyFromSession();
+            $targetCurrencyCode = self::getCurrencyCodeFromSession();
         }
 
         $targetCurrency = self::$container[$targetCurrencyCode];

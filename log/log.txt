@@ -1418,3 +1418,47 @@ Fault: 22-04-2021 23:15:09 - Не верное имя файла для подк
 file W:\domains\MyProject\core\base\settings\internal_settings.php
 In line 27
 
+Fault: 24-04-2021 23:32:44 - Не верное имя файла для подключения - core/user/controller/CurrencyController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 0:03:38 - Не верное имя файла для подключения - core/base/controller/DateTime
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 0:04:11 - Не верное имя файла для подключения - core/base/controller/DateTime
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 14:51:15 - Не верное имя файла для подключения - core/user/controller/CurrencyController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 16:02:45 - Не верное имя файла для подключения - core/user/controller/CategoryController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 16:02:48 - Не верное имя файла для подключения - core/user/controller/CategoryController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 16:26:37 - Не верное имя файла для подключения - core/user/controller/CategoryController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 16:30:24 - Не верное имя файла для подключения - core/user/controller/CategoryController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 20:09:32 - Не верное имя файла для подключения - core/user/controller/OrderController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 20:09:58 - Не верное имя файла для подключения - core/user/controller/OrderController
+file W:\domains\MyProject\core\base\settings\internal_settings.php
+In line 28
+
+Fault: 25-04-2021 20:10:03 - Отсутствует шаблон - core/admin/view/order
+file W:\domains\MyProject\core\base\controller\BaseController.php
+In line 108
+

@@ -21,6 +21,16 @@
             <li class="nav-item"><a class="nav-link" href="/category">Категории</a></li>
             <li class="nav-item"><a class="nav-link" href="/basket">В корзину</a></li>
             <li class="nav-item"><a class="nav-link" href="/admin">Админка</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <?=$_SESSION['currencyCode']?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <?php foreach($_SESSION['currencies'] as $code => $symbol):?>
+                        <li><a class="dropdown-item" href="/currency/code/<?=$code?>"><?=$symbol?></a></li>
+                    <?php endforeach;?>
+                </ul>
+            </li>
         </ul>
 
         <ul class="nav navbar-right">

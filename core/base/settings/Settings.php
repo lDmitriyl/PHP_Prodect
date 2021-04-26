@@ -38,6 +38,9 @@ class Settings
                 'add_product_offer' => 'productOffer/create',
                 'update_product_offer' => 'productOffer/update',
 
+                'orders' => 'order/index',
+                'order' => 'order/show',
+
             ]
         ],
         'settings' => [

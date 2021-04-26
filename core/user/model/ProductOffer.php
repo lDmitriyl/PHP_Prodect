@@ -15,7 +15,7 @@ class productOffer extends Model
         $product_id ? $where = " WHERE po.product_id = :id " : $where = "";
         !empty($arrLimit) ? $limit = "LIMIT :lim1 , :lim2 " : $limit = '';
 
-        $stmt = $this->db->prepare("SELECT po.id, po.count, po.price, p.name as product_name FROM product_offers as po
+        $stmt = $this->db->prepare("SELECT po.id, po.count, po.price, p.image, p.name as product_name FROM product_offers as po
                                     JOIN products as p 
                                     ON po.product_id = p.id $where$limit");
 
@@ -138,6 +138,20 @@ class productOffer extends Model
         }
 
         return true;
+    }
+
+    public function getProductsFromOrder($order_id){
+
+        $stmt = $this->db->prepare("SELECT p.name, po.price, op.countInOrder FROM products as p
+                                    JOIN product_offers as po
+                                    ON p.id = po.product_id 
+                                    JOIN order_product_offer as op 
+                                    ON po.id = op.product_offer_id WHERE op.order_id = ?");
+
+        $stmt->execute([$order_id]);
+
+        return $stmt->fetchAll();
+
     }
 
 
