@@ -39,12 +39,10 @@ class ProductController extends BaseAdmin
 
             $this->clearPostFields();
 
-            $this->createFiles('products');
-
-            Product::instance()->createProduct($_POST, $this->messages, $this->fileArray['image']) ? $this->redirect(PATH . 'admin/products') : $this->redirect();
+            Product::instance()->createProduct($_POST, $this->messages) ? $this->redirect(PATH . 'admin/products') : $this->redirect();
         }
 
-        return ['categories' => $categories, 'properties' => $properties];
+        return ['category' => $categories, 'properties' => $properties];
     }
 
     public function update(){
@@ -63,12 +61,12 @@ class ProductController extends BaseAdmin
 
             $this->createFiles('products', $_POST['id']);
 
-            Product::instance()->updateProduct($_POST, $this->messages, $this->fileArray['image']) ?
+            Product::instance()->updateProduct($_POST, $this->messages) ?
                 $this->redirect(PATH . 'admin/products') : $this->redirect();
 
         }
 
-        return ['product' => $product, 'categories' => $categories, 'properties' => $properties , 'productProperties' => $productProperties];
+        return ['product' => $product, 'category' => $categories, 'properties' => $properties , 'productProperties' => $productProperties];
     }
 
     public function delete(){

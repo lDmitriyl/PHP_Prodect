@@ -5,7 +5,7 @@
     <h1>Добавить товарное предложение</h1>
     <?php endif;?>
 
-    <form method="POST" enctype="multipart/form-data"
+    <form id="main-form" method="POST" enctype="multipart/form-data"
           action="<?= empty($this->parameters['id']) ? '/admin/add_product_offer' : '/admin/update_product_offer';?>">
         <div>
             <input type="hidden" name="product_id" value="<?=$this->parameters['product_id']?>">
@@ -48,8 +48,60 @@
             <?php $i++;?>
             <?php endforeach;?>
             <br>
+            <div class="vg-element vg-full vg-box-shadow img_wrapper">
+                <div class="input-group row">
+                    <label for="image" class="col-sm-2 col-form-label">Картинка: </label>
+                    <div class="col-sm-10">
+                        <div class="img_container">
+                            <div class="card-img">
+                                <?php if(!empty($this->parameters)):?>
+                                    <img class="img_item" src="<?= PATH . UPLOAD_DIR . $productOffer['image']?>">
+                                <?php endif;?>
+                            </div>
+                            <label class="btn btn-default btn-file">
+                                Загрузить <input type="file" style="display: none;" name="image" id="image">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="vg-element vg-full vg-box-shadow img_wrapper">
+                <div class="vg-wrap vg-element vg-full">
+                    <div class="vg-wrap vg-element vg-full">
+                        <div class="vg-element vg-full vg-left">
+                            <span class="vg-header"></span>
+                        </div>
+                        <div class="vg-element vg-full vg-left">
+                            <span class="vg-text vg-firm-color5"></span><span class="vg_subheader"></span>
+                        </div>
+                    </div>
+                    <div class="vg-wrap vg-element vg-full gallery_container">
+                        <label class="vg-dotted-square vg-center">
+                            <img src="<?=PATH . ADMIN_TEMPLATE?>img/plus.png" alt="plus">
+                            <input class="gallery_img" style="display: none;" type="file" name="gallery_img[]" multiple>
+                        </label>
+                        <?php foreach (json_decode($productOffer['gallery_img']) as $image):?>
+                            <a href="/admin/delete_images_product_offer/id/<?=$productOffer['id']?>/gallery_img/<?=base64_encode($image)?>" class="vg-dotted-square vg-center">
+                                <img class="vg_delete" src="<?=PATH . UPLOAD_DIR . $image?>" height="100%" width="100%">
+                            </a>
+                        <?php endforeach;?>
+                        <?php
+                        for($i = 0; $i < 2; $i++){
+                            echo ' <div class="vg-dotted-square vg-center empty_container"></div>';
+                        }
+                        ?>
+
+                    </div>
+                </div>
+            </div>
+            <?php if(!empty($this->parameters['id'])):?>
+                <input type="hidden" name="id" value="<?=$productOffer['id']?>">
+            <?php endif;?>
+
+
             <input type="hidden" name="_token" value="<?=$this->_token?>">
-            <button class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Сохранить</button>
         </div>
     </form>
 </div>

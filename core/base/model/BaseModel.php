@@ -89,6 +89,8 @@ abstract class BaseModel
 
     public function getFiles($table, $column, $id){
 
+        $column = rtrim(implode(',', $column), ',');
+
         $stmt = $this->db->prepare("SELECT $column FROM $table WHERE id = ?");
         $stmt->execute([$id]);
 

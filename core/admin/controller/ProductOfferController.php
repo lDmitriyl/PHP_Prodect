@@ -41,7 +41,9 @@ class ProductOfferController extends BaseAdmin
 
             $this->clearPostFields();
 
-            ProductOffer::instance()->createProductOffer($_POST, $this->messages) ?
+            $this->createFiles('productOffer/gallery_img');
+
+            ProductOffer::instance()->createProductOffer($_POST, $this->fileArray , $this->messages) ?
                 $this->redirect(PATH . 'admin/product_offers/product_id/' . $_POST['product_id']) : $this->redirect();
         }
 
@@ -51,7 +53,7 @@ class ProductOfferController extends BaseAdmin
     public function update(){
 
         $this->template = 'core/admin/view/productOffer/form';
-        $this->table = 'products';
+        $this->table = 'product_offers';
 
         $productOffer = ProductOffer::instance()->getProductOffer($this->parameters['id'])[0];
         $productOfferOptions = PropertyOption::instance()->getProductOfferOptions($productOffer['id']);
@@ -63,7 +65,9 @@ class ProductOfferController extends BaseAdmin
 
             $this->clearPostFields();
 
-            ProductOffer::instance()->updateProductOffer($_POST, $this->messages) ?
+            $this->createFiles('productOffer/gallery_img', $_POST['id']);
+
+            ProductOffer::instance()->updateProductOffer($_POST, $this->fileArray, $this->messages) ?
                 $this->redirect(PATH . 'admin/product_offers/product_id/' . $_POST['product_id']) : $this->redirect();
 
         }
@@ -78,6 +82,26 @@ class ProductOfferController extends BaseAdmin
 
         $this->redirect();
 
+    }
+
+    public function deleteImages(){
+
+        $productOffer = ProductOffer::instance()->getProductOffer($this->parameters['id'])[0];
+
+        $id = $this->parameters['id'];
+
+        array_shift($this->parameters);
+
+        $images = $this->deleteFile($productOffer, $this->parameters);
+
+        if(ProductOffer::instance()->updateImage('product_offers', array_keys($this->parameters)[0], $images, $id)){
+
+            $_SESSION['res']['success'] = $this->messages['deleteImage'];
+
+            $this->redirect();
+        }
+
+        $_SESSION['res']['success'] = $this->messages['deleteImageError'];
     }
 
 }

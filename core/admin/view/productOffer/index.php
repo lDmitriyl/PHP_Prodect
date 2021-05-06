@@ -1,6 +1,6 @@
 <div class="col-md-12">
     <h1>Товарные предложения</h1>
-    <h2><?=$product['name']?></h2>
+    <h2><?=$productOffers[0]['product_name']?></h2>
     <table class="table">
         <tbody>
         <tr>

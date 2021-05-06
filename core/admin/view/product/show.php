@@ -27,10 +27,6 @@
             <td><?=$product['description']?></td>
         </tr>
         <tr>
-            <td>Картинка</td>
-            <td><img src="<?=PATH . UPLOAD_DIR . $product['image']?>" height="240px"></td>
-        </tr>
-        <tr>
             <td>Категория</td>
             <td><?=$product['category_name']?></td>
         </tr>

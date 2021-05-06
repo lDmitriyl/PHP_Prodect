@@ -15,7 +15,7 @@ class productOffer extends Model
         $product_id ? $where = " WHERE po.product_id = :id " : $where = "";
         !empty($arrLimit) ? $limit = "LIMIT :lim1 , :lim2 " : $limit = '';
 
-        $stmt = $this->db->prepare("SELECT po.id, po.count, po.price, p.image, p.name as product_name FROM product_offers as po
+        $stmt = $this->db->prepare("SELECT po.id, po.count, po.price, po.gallery_img, po.image, p.name as product_name FROM product_offers as po
                                     JOIN products as p 
                                     ON po.product_id = p.id $where$limit");
 
@@ -33,7 +33,8 @@ class productOffer extends Model
 
     public function getProductOffer($id){
 
-        $stmt = $this->db->prepare("SELECT pO.id, pO.count, pO.price, pO.product_id, p.name as product_name FROM product_offers as pO
+        $stmt = $this->db->prepare("SELECT pO.id, pO.count, pO.price, pO.product_id, pO.gallery_img, pO.image, p.name as product_name
+                                    FROM product_offers as pO
                                     JOIN products as p
                                     ON pO.product_id = p.id WHERE pO.id = ?");
 
@@ -42,11 +43,11 @@ class productOffer extends Model
         return $stmt->fetchAll();
     }
 
-    public function createProductOffer($data, $messages){
+    public function createProductOffer($data, $file, $messages){
 
-        $stmt = $this->db->prepare("INSERT INTO `product_offers` (`product_id`, `count`, `price`) VALUES (?, ?, ?)");
+        $stmt = $this->db->prepare("INSERT INTO `product_offers` (`product_id`, `count`, `price`, `gallery_img`, `image`) VALUES (?, ?, ?, ?, ?)");
 
-        if($stmt->execute([$data['product_id'], $data['count'], $data['price']])){
+        if($stmt->execute([$data['product_id'], $data['count'], $data['price'], $file['gallery_img'], $file['image']])){
 
             if($_POST['property_id']){
 
@@ -74,11 +75,27 @@ class productOffer extends Model
         return false;
     }
 
-    public function updateProductOffer($data, $messages){
+    public function updateProductOffer($data, $file, $messages){
 
-        $stmt = $this->db->prepare("UPDATE product_offers SET `product_id` = ? , `count` = ?, `price` = ? WHERE id = ? ");
 
-        if($stmt->execute([$data['product_id'], $data['price'], $data['count'], $data['id']])){
+        if($file){
+            $file['image'] ? $query = "UPDATE product_offers SET `product_id` = ? , `count` = ?, `price` = ?, `gallery_img` = ?, `image` = ? WHERE id = ?" :
+                $query = "UPDATE product_offers SET `product_id` = ? , `count` = ?, `price` = ?, `gallery_img` = ? WHERE id = ?";
+        }else{
+            $query = "UPDATE product_offers SET `product_id` = ? , `count` = ?, `price` = ? WHERE id = ?";
+        }
+
+        $stmt = $this->db->prepare($query);
+
+        if($file){
+            $file['image'] ? $res = $stmt->execute([$data['product_id'], $data['price'], $data['count'], $file['gallery_img'], $file['image'], $data['id']]) :
+                $res = $stmt->execute([$data['product_id'], $data['price'], $data['count'], $file['gallery_img'], $data['id']]);
+        }else{
+            $res = $stmt->execute([$data['product_id'], $data['price'], $data['count'], $data['id']]);
+        }
+
+
+        if($res){
 
             $stmt = $this->db->prepare("DELETE FROM product_offer_property_option WHERE product_offer_id = ?");
 
@@ -142,7 +159,7 @@ class productOffer extends Model
 
     public function getProductsFromOrder($order_id){
 
-        $stmt = $this->db->prepare("SELECT p.name, po.price, op.countInOrder FROM products as p
+        $stmt = $this->db->prepare("SELECT p.id as product_id, p.name, po.image, po.id, po.price, op.countInOrder FROM products as p
                                     JOIN product_offers as po
                                     ON p.id = po.product_id 
                                     JOIN order_product_offer as op 
@@ -151,6 +168,14 @@ class productOffer extends Model
         $stmt->execute([$order_id]);
 
         return $stmt->fetchAll();
+
+    }
+
+    public function updateImage($table , $column, $data, $id){
+
+        $stmt = $this->db->prepare("UPDATE $table SET $column = ? WHERE id = ?");
+
+        return $stmt->execute([$data, $id]);
 
     }
 

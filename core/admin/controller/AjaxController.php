@@ -4,6 +4,7 @@
 namespace core\admin\controller;
 
 
+use core\user\model\productOffer;
 use libraries\FileEdit;
 
 class AjaxController extends BaseAdmin
@@ -28,6 +29,19 @@ class AjaxController extends BaseAdmin
                     return ['location' => PATH . UPLOAD_DIR . $file[key($file)]];
 
                     break;
+
+                case 'editData':
+
+                    $this->clearPostFields();
+
+                    $this->table = 'product_offers';
+
+                    $this->createFiles('productOffer/gallery_img', $_POST['id']);
+
+                    !$_POST['id'] ? ProductOffer::instance()->createProductOffer($_POST, $this->fileArray, $this->messages) :
+                        ProductOffer::instance()->updateProductOffer($_POST, $this->fileArray, $this->messages);
+
+                    return json_encode(['success' => 1]);
 
 
             }

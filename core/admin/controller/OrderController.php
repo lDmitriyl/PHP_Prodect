@@ -25,9 +25,9 @@ class OrderController extends BaseAdmin
 
           $order = Order::instance()->getOrders($this->parameters['order_id']);
 
-          $products = ProductOffer::instance()->getProductsFromOrder($this->parameters['order_id']);
+          $productOffers = ProductOffer::instance()->getProductsFromOrder($this->parameters['order_id']);
 
-          return ['order' => $order, 'products' => $products];
+          return ['order' => $order, 'productOffers' => $productOffers];
 
       }
 }

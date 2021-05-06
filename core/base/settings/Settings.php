@@ -37,9 +37,17 @@ class Settings
                 'product_offer' => 'productOffer/show',
                 'add_product_offer' => 'productOffer/create',
                 'update_product_offer' => 'productOffer/update',
+                'delete_product_offer' => 'productOffer/delete',
+                'delete_images_product_offer' => 'productOffer/deleteImages',
 
                 'orders' => 'order/index',
                 'order' => 'order/show',
+
+                'categories' => 'category/index',
+                'category' => 'category/show',
+                'add_category' => 'category/create',
+                'update_category' => 'category/update',
+                'delete_category' => 'category/delete',
 
             ]
         ],
@@ -78,7 +86,8 @@ class Settings
         'password' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'password2' => ['crypt' => true, 'empty' => true,'countMin' => 5],
         'prodName' => ['empty' => true, 'str' => true],
-        'phone' => ['empty' => true]
+        'phone' => ['empty' => true],
+        'code' => ['empty' => true],
     ];
 
     static public function get($property){

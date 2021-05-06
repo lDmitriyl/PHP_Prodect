@@ -11,12 +11,13 @@ const DEFAULT_CURRENCY_CODE = 'EUR';
 
 const ADMIN_CSS_JS = [
     'styles' =>['css/bootstrap.min.css', 'css/starter-template.css', 'css/main.css'],
-    'scripts' =>['js/bootstrap.js', 'js/jquery.min.js','js/script.js', 'js/tinymce/tinymce.min.js', 'js/tinymce/tinymce_init.js']
+    'scripts' =>['js/bootstrap.js', 'js/jquery.min.js', 'js/tinymce/tinymce.min.js',
+        'js/tinymce/tinymce_init.js', 'js/framework.js', 'js/script.js']
 ];
 
 const USER_CSS_JS = [
     'styles' =>['css/bootstrap.min.css', 'css/starter-template.css', 'css/main.css'],
-    'scripts' =>['js/bootstrap.js', 'jquery.min.js']
+    'scripts' =>['js/bootstrap.js', 'js/jquery.min.js']
 ];
 
 use core\base\exceptions\RouteException;

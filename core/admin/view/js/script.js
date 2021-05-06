@@ -1,132 +1,307 @@
-const Ajax = (set) =>{
 
-    console.log(set);
+createFile()
 
-    if(typeof set === 'undefined') set = {};
+function createFile(){
 
-    if(typeof set.url === 'undefined' || !set.url){
-        set.url = typeof PATH !== 'undefined' ? PATH : '/';
-    }
+    let files = document.querySelectorAll('input[type=file]');
 
-    if(typeof set.ajax === 'undefined') set.ajax = true;
+    let fileStore = [];
 
-    if(typeof set.type === 'undefined' || !set.type) set.type = 'GET';
+    if(files.length){
 
-    set.type = set.type.toUpperCase();
+        files.forEach(item =>{
 
-    let body = '';
+            item.onchange = function (){
 
-    if(typeof set.data !== 'undefined' && set.data){
+                let multiple = false;
 
-        if(typeof set.processData !== 'undefined' && !set.processData){
+                let container
 
-            body = set.data;
+                let parentContainer
 
-        }else{
+                if(this.hasAttribute('multiple')){
 
-            for(let i in set.data){
+                    multiple = true
 
-                if(set.data.hasOwnProperty(i))
-                    body += '&' + i + '=' + set.data[i];
+                    parentContainer = this.closest('.gallery_container')
 
-            }
+                    if (!parentContainer) return false
 
-            body = body.substr(1);
+                    container = parentContainer.querySelectorAll('.empty_container')
 
-            if(typeof ADMIN_MODE !== 'undefined'){
+                    if(container.length < this.files.length){
 
-                body += body ? '&' : '';
-                body += 'ADMIN_MODE=' + ADMIN_MODE;
+                        for( let i = 0 ; i < this.files.length - container.length; i++) {
 
-            }
+                            let el = document.createElement('div')
 
-        }
+                            el.classList.add('vg-dotted-square', 'vg-center', 'empty_container');
 
-    }
+                            parentContainer.append(el);
 
-    if(set.type === 'GET'){
+                        }
 
-        set.url += '?' + body;
-        body = null;
+                        container = parentContainer.querySelectorAll('.empty_container')
 
-    }
-
-    return new Promise((resolve, reject) => {
-
-        let xhr = new XMLHttpRequest();
-
-        xhr.open(set.type, set.url, true);
-
-        let contentType = false;
-
-        if(typeof set.headers !== 'undefined' && set.headers){
-
-            for(let i in set.headers){
-
-                if(set.headers.hasOwnProperty(i)){
-
-                    xhr.setRequestHeader(i, set.headers[i]);
-
-                    if(i.toLowerCase() === 'content-type') contentType = true;
-
+                    }
                 }
 
-            }
+                let fileName = item.name
 
-        }
+                let attributeName = fileName.replace(/[\[\]]]/g, '');
 
-        if(!contentType && (typeof set.contentType === 'undefined' || set.contentType ))
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+                for( let i in this.files){
 
-        if(set.ajax)
-            xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                    if(this.files.hasOwnProperty(i)){
 
-        xhr.onload = function (){
+                        if(multiple){
 
-            if(this.status >= 200 && this.status < 300){
+                            if(typeof fileStore[fileName] === 'undefined') fileStore[fileName] = [];
 
-                if(/fatal\s+?error/ui.test(this.response)){
-                    reject(this.response);
+                            let elId = fileStore[fileName].push(this.files[i]) - 1;
+
+                            container[i].setAttribute(`data-delete-Field-${attributeName}`, elId)
+
+                            showImage(this.files[i], container[i], function (){
+
+                                parentContainer.sortable({excludedElements: 'label .empty_container'});
+
+                            });
+
+                            deleteImage(elId, attributeName, container[i]);
+
+                        }else{
+
+                            container = this.closest('.img_container').querySelector('.card-img')
+
+                            showImage(this.files[i], container);
+
+                        }
+                    }
                 }
+            }
 
-                resolve(this.response);
+            let area = item.closest('.img_wrapper')
+
+            if(area){
+
+                dragAndDrop(area, item);
 
             }
 
-            reject(this.response);
+        })
 
+        let form = document.querySelector('#main-form')
+
+        if(form){
+
+            form.onsubmit = function (e){
+
+                createJsSortable(form);
+
+                if(!isEmpty(fileStore)){
+
+                    e.preventDefault();
+
+                    let formData = new FormData(this)
+
+                    for (let i in fileStore){
+
+                        if(fileStore.hasOwnProperty(i)){
+
+                            formData.delete(i)
+
+                            let rowName = i.replace(/[\[\]]]/g, '');
+
+                            fileStore[i].forEach((item,index) =>{
+
+                                formData.append(`${rowName}[${index}]`, item)
+
+                            })
+
+                        }
+
+                    }
+
+                    formData.append('ajax', 'editData');
+
+                    Ajax({
+                        url: this.getAttribute('action'),
+                        type: 'post',
+                        data: formData,
+                        processData: false,
+                        contentType: false
+                    }).then(res => {
+                        try{
+
+                            res = JSON.parse(res);
+
+                            if(!res.success) throw new Error();
+
+                            location.reload();
+
+                        }catch (e){
+
+                            alert('Произошла внутренняя ошибка')
+
+                        }
+                    })
+                }
+            }
         }
 
-        xhr.onerror = function (){
-            reject(this.response);
+        function deleteImage(elId, attributeName, container){
+
+            container.addEventListener('click', function (){
+
+                this.remove()
+
+                delete fileStore[attributeName][elId]
+
+            })
         }
 
-        xhr.send(body);
+        function showImage(item, container, callback){
+
+            container.innerHTML = '';
+
+            let reader = new FileReader();
+
+            reader.readAsDataURL(item);
+
+            reader.onload = e => {
+
+                container.innerHTML = '<img class="img_item" src="">';
+
+                container.querySelector('img').setAttribute('src', e.target.result);
+
+                container.classList.remove('empty_container')
+
+                callback && callback();
+
+            }
+        }
+
+        function  dragAndDrop(area, input){
+
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach((eventName, index) => {
+
+                area.addEventListener(eventName, e => {
+
+                    e.preventDefault();
+
+                    e.stopPropagation();
+
+                    if(index < 2){
+
+                        area.style.background = 'lightblue';
+
+                    }else{
+
+                        area.style.background = '#fff';
+
+                        if(index === 3){
+
+                            input.files = e.dataTransfer.files;
+
+                            input.dispatchEvent(new Event('change'));
+
+                        }
+                    }
+                });
+            });
+        }
+    }
+}
+
+
+let galleries = document.querySelectorAll('.gallery_container');
+
+if(galleries.length){
+
+    galleries.forEach(item => {
+
+        item.sortable({
+
+            excludedElements: 'label .empty_container',
+            stop: function (dragEl){
+
+            }
+
+        })
 
     });
 
 }
 
-let container = document.querySelector('.card-img');
+function createJsSortable(form){
 
-function download(input){
+    if(form){
 
-    let file = input.files[0];
+        let sortable = form.querySelectorAll('input[type=file][multiple]');
 
-    container.innerHTML = '';
+        if(sortable.length){
 
-    let reader = new FileReader();
+            sortable.forEach(item => {
 
-    reader.readAsDataURL(file);
+                let container = item.closest('.gallery_container');
 
-    reader.onload = e => {
+                let name = item.getAttribute('name');
 
-        container.innerHTML = '<img class="img_item" src="">';
+                if(name && container){
 
-        console.log(12);
+                    name = name.replace(/\[\]/g, '');
 
-        container.querySelector('img').setAttribute('src', e.target.result);
+                    let inputSorting = form.querySelector(`input[name="js-sorting[${name}]"]`);
+
+                    if(!inputSorting){
+
+                        inputSorting = document.createElement('input');
+
+                        inputSorting.name = `js-sorting[${name}]`;
+
+                        form.append(inputSorting);
+
+                    }
+
+                    let res = [];
+
+                    for(let i in container.children){
+
+                        if(container.children.hasOwnProperty(i)){
+
+                            if(!container.children[i].matches('label') && !container.children[i].matches('.empty_container')){
+
+                                if(container.children[i].tagName === 'A'){
+
+                                    res.push(container.children[i].querySelector('img').getAttribute('src'));
+
+                                }else{
+
+                                    res.push(container.children[i].getAttribute(`data-delete-Field-${name}`));
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                    inputSorting.value = JSON.stringify(res);
+
+                }
+
+            })
+
+        }
 
     }
 
+
+
 }
+
+
+
+

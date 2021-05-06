@@ -62,6 +62,61 @@ abstract class BaseAdmin extends BaseController
             $this->checkFiles($id);
 
         }
+
+        if(!empty($_POST['js-sorting']) && $this->fileArray){
+
+            foreach ($_POST['js-sorting'] as $key => $item){
+
+                if(!empty($item) && !empty($this->fileArray[$key])){
+
+                    $fileArr = json_decode($item);
+
+                    if($fileArr){
+
+                        $this->fileArray[$key] = $this->sortingFiles($fileArr, $this->fileArray[$key]);
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        foreach ($this->fileArray as $row => $file){
+
+            if(is_array($file)) $this->fileArray[$row] = json_encode($file);
+            else $this->fileArray[$row] = addslashes($file);
+
+        }
+    }
+
+    protected function sortingFiles($fileArr, $arr){
+
+        $res = [];
+
+        foreach ($fileArr as $file){
+
+            if(!is_numeric($file)){
+
+                $file = substr($file, strlen(PATH . UPLOAD_DIR));
+
+            }else{
+
+                $file = $arr[$file];
+
+            }
+
+            if($file && in_array($file, $arr)){
+
+                $res[] = $file;
+
+            }
+
+        }
+
+        return $res;
+
     }
 
     protected function checkFiles($id){
@@ -72,9 +127,13 @@ abstract class BaseAdmin extends BaseController
 
             if(!empty($this->fileArray)) $arrKeys = array_keys($this->fileArray);
 
+            if(!empty($_POST['js-sorting'])) $arrKeys = array_merge($arrKeys, array_keys($_POST['js-sorting']));
+
             if($arrKeys){
 
-                $data = $this->model->getFiles($this->table, $arrKeys[0], $id);
+                $arrKeys = array_unique($arrKeys);
+
+                $data = $this->model->getFiles($this->table, $arrKeys, $id);
 
                 if($data){
 
@@ -82,7 +141,18 @@ abstract class BaseAdmin extends BaseController
 
                     foreach ($data as $key => $item){
 
-                        if(!empty($this->fileArray[$key])){
+                        if((!empty($this->fileArray[$key]) && is_array($this->fileArray[$key])) || !empty($_POST['js-sorting'][$key])){
+
+                            $fileArr = json_decode($item);
+
+                            if($fileArr){
+
+                                foreach ($fileArr as $file)
+                                    $this->fileArray[$key][] = $file;
+
+                            }
+
+                        }elseif(!empty($this->fileArray[$key])){
 
                             @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $item);
 
@@ -96,6 +166,48 @@ abstract class BaseAdmin extends BaseController
 
         }
 
+    }
+
+    public function deleteFile($product, $file){
+
+        foreach ($product as $row => $item){
+
+            if(isset($file[$row])){
+
+                $file = base64_decode($file[$row]);
+
+                $productImage = json_decode($item, true);
+
+                if(is_array($productImage) || is_object($productImage)){
+
+                    foreach ($productImage  as $key => $imgName){
+
+                        if($file === $imgName){
+
+                            unset($productImage[$key]);
+
+                            break;
+
+                        }
+
+                    }
+
+                    $data = $productImage ? json_encode($productImage) : NULL;
+
+                }else{
+
+                    $data = $file;
+
+                }
+
+                @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $file);
+
+                return $data;
+
+            }
+        }
+
+        return NULL;
     }
 
     public function productOfferName($productOffer){
