@@ -9,7 +9,7 @@ use core\base\settings\Settings;
 
 abstract class BaseController
 {
-    use BaseMethods;
+    use BaseMethods, ValidationMethods;
 
     protected $header;
     protected $content;

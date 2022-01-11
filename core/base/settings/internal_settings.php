@@ -4,6 +4,7 @@ defined('ACCESS') or die('Access denied');
 const TEMPLATE = 'templates/';
 const ADMIN_TEMPLATE = 'core/admin/view/';
 const UPLOAD_DIR = 'files/';
+const DEFAULT_IMAGE_DIRECTORY = 'default_images';
 
 const PAGINATION = 3;
 const DEFAULT_CURRENCY_CODE = 'EUR';

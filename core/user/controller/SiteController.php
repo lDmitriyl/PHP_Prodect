@@ -64,4 +64,34 @@ abstract class SiteController extends BaseController
         }
 
     }
+
+    protected function img($img = '', $tag = false){
+
+        if(!$img && is_dir($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . DEFAULT_IMAGE_DIRECTORY)){
+
+            $dir = scandir($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . DEFAULT_IMAGE_DIRECTORY);
+
+            $imgArr = preg_grep('/' . $this->getController() .'\./i', $dir) ?: preg_grep('/default\./i', $dir);
+
+            $imgArr && $img = DEFAULT_IMAGE_DIRECTORY . '/' . array_shift($imgArr);
+
+        }
+
+        if($img){
+
+            $path = PATH . UPLOAD_DIR . $img;
+
+            if(!$tag){
+
+                return $path;
+
+            }
+
+            echo '<img src="' . $path . '" alt="image" title = "image">';
+
+        }
+
+        return '';
+
+    }
 }
